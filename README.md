@@ -6,11 +6,11 @@ https://github.com/MayorMB/Project-Files
 
 2) In a new directory, create a package.json file to be used with the node.js (client) SDK:
 
-mkdir hello-node-client && cd hello-node-client && npm init
+**mkdir hello-node-client && cd hello-node-client && npm init**
 
 3) Install the LaunchDarkly SDK:
 
-npm install launchdarkly-node-client-sdk@2.0.4 --save
+**npm install launchdarkly-node-client-sdk@2.0.4 --save**
 
 4) In the index.js file in this Project-Files GitHib repo, replace the user key 
 
