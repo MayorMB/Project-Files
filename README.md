@@ -15,8 +15,10 @@ https://github.com/MayorMB/Project-Files
 4) In the index.js file in this Project-Files GitHib repo, replace the example user key in quotes.
 
 **var user = {
-  key: "example-user-key"**
+  key: "example-user-key"
+};**
 
+4) Replace the SDK key from line 10 of the 
 4) Run the application using the output based on the index.js file in this Project-Files GitHib repo.
 
 5) 
