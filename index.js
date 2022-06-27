@@ -1,8 +1,7 @@
 // Import the LaunchDarkly client
 var LaunchDarkly = require('launchdarkly-node-client-sdk');
 
-// Set up the user properties. This user should appear on your LaunchDarkly users dashboard
-// soon after you run the demo.
+// User properties. 
 var user = {
   key: "example-user-key"
 };
@@ -21,10 +20,7 @@ ldClient.waitForInitialization().then(function() {
   showMessage("Feature flag " + "new-planning-ui" + " is " + flagValue + " for this user");
 
   // Here we ensure that the SDK shuts down cleanly and has a chance to deliver analytics
-  // events to LaunchDarkly before the program exits. If analytics events are not delivered,
-  // the user properties and flag usage statistics will not appear on your dashboard. In a
-  // normal long-running application, the SDK would continue running and events would be
-  // delivered automatically in the background.
+  // events to LaunchDarkly before the program exits.
   ldClient.close();
 }).catch(function(error) {
   showMessage("SDK failed to initialize: " + error);
