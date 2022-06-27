@@ -12,10 +12,10 @@ https://github.com/MayorMB/Project-Files
 
 **npm install launchdarkly-node-client-sdk@2.0.4 --save**
 
-4) In the index.js file in this Project-Files GitHib repo, replace the user key 
+4) In the index.js file in this Project-Files GitHib repo, replace the example user key in quotes.
 
-var user = {
-  key: "example-user-key"
+**var user = {
+  key: "example-user-key"**
 
 4) Run the application using the output based on the index.js file in this Project-Files GitHib repo.
 
